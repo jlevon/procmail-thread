@@ -74,8 +74,6 @@ To mark a particular thread, use `add-thread.sh`. For example, in mutt,
 I have:
 
 ```
-macro index "M" "|~/src/procmail-thread/add-thread.sh ~/.refs.muted<return>"
-macro pager "M" "|~/src/procmail-thread/add-thread.sh ~/.refs.muted<return>"
-macro index "W" "|~/src/procmail-thread/add-thread.sh ~/.refs.watched<return>"
-macro pager "W" "|~/src/procmail-thread/add-thread.sh ~/.refs.watched<return>"
+macro index,pager "M" "|~/src/procmail-thread/add-thread.sh ~/.refs.muted<return>"
+macro index,pager "W" "|~/src/procmail-thread/add-thread.sh ~/.refs.watched<return>"
 ```
