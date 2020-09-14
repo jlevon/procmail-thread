@@ -51,3 +51,5 @@ if [[ $? = 0 ]]; then
 else
 	cat $mail
 fi
+
+rm $mail
