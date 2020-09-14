@@ -37,7 +37,6 @@ You can use this in procmail like so:
 
 :0
 $DEST/
-
 ```
 
 Where `.procmailrc.markread` is this lovely piece of copy-and-paste

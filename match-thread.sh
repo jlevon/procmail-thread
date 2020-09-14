@@ -6,7 +6,7 @@
 #
 # Usage:
 #
-# cat mail_msgs | add-thread.sh ~/.mail.refs.muted "Muted: true"
+# cat mail_msgs | match-thread.sh ~/.mail.refs.muted "Muted: true"
 #
 
 ref_file="$1"
