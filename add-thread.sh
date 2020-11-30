@@ -12,7 +12,7 @@
 
 ref_file=$1
 
-newrefs="$(cat - | formail -x references -x message-id | tr -d '\n')"
+newrefs="$(formail -x references -x message-id | tr -d '\n')"
 
 touch $ref_file
 
